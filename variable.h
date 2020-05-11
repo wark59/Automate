@@ -14,8 +14,6 @@ void affichageComplet(char* nomFichier);
 
 int convertisseur(char* variable, int nb);
 
-int motFonctionne(char* motdeBase, char* motFichier);
-
 int nombreEtat(char* variable);
 
 #endif 
