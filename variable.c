@@ -79,20 +79,6 @@ int convertisseur(char* variable, int nb)
 	res = (int) table[nb] - '0'; 
 	return res;
 }
-
-int motFonctionne(char* motdeBase, char* motFichier)
-{
-	int tailleMotDeBase = strlen(motdeBase);
-	int tailleMotFichier = strlen(motFichier);
-	if(tailleMotDeBase != tailleMotFichier){
-		return -1;
-	}
-	if( strcmp(motdeBase,motFichier) == 0) {
-		return 0;
-	}
-	return -1;
-}
-
 int nombreEtat(char* variable)
 {
 	return strlen(variable);
