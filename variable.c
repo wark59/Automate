@@ -8,8 +8,9 @@
  
 char* variable(char* nomfich, int nb)
 {
-    char* res = calloc(TAILLE_MAX ,TAILLE_MAX);
-	int caractereLu, ligne = 1;
+    char* res = calloc(50 ,1);
+	int caractereLu = 1;
+	int ligne = 1;
 	FILE* fichier = NULL;
     char chaine[TAILLE_MAX] = "";
 	
