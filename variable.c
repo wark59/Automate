@@ -31,7 +31,9 @@ char* variable(char* nomfich, int nb)
 	   strcpy(res,chaine);
 	   
     } 
+	if( fichier != NULL) {
 	fclose(fichier);
+	}
 	
 	return res ;
 }
